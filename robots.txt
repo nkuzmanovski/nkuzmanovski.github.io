@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://nkuzmanovski.github.io/nkuzmanovski/sitemap.xml
+Sitemap: https://nkuzmanovski.github.io/sitemap.xml
