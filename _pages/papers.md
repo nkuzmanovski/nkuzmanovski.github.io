@@ -2,7 +2,7 @@
 layout: page
 permalink: /papers/
 title: Papers
-description: Under construction
+description:
 nav: true
 nav_order: 0
 ---
