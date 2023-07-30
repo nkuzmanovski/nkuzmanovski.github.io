@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am a math graduate student at the University of Nebraska-Lincoln.
-My research interests are in discrete isoperimetric inequalities, Macaulay-Lex theorems, Hilbert functions lex ideals, and intersection results like the Erdős–Ko–Rado theorem.
-I am advised by Jamie Radcliffe.
+My research interests are in discrete isoperimetric inequalities, Macaulay-Lex theorems, Hilbert functions, lex ideals, and intersection results like the Erdős–Ko–Rado theorem.
+My advisor is Jamie Radcliffe.
 
 You should check out some of my [papers](/papers/).
