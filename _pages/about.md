@@ -7,9 +7,10 @@ subtitle: <a href=https://math.unl.edu/>University of Nebraska-Lincoln, Departme
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   address: >
     <p>Office: Avery Hall 313</p>
+    <p>Email: nikola.kuzmanovski@huskers.unl.edu</p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
