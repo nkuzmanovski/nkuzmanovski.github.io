@@ -23,3 +23,5 @@ My research interests are in discrete isoperimetric inequalities, Macaulay-Lex t
 Jamie Radcliffe and Alexandra Seceleanu are my advisor.
 
 You should check out some of my [papers](/papers/).
+
+<p align="center"><img src="/assets/img/5x5x5_Lex_animation.gif" width="35%" height="35%"/></p>
