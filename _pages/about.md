@@ -9,8 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Office: Avery Hall 313</p>
-    <p>Email: nikola.kuzmanovski@huskers.unl.edu</p>
+    <p>Avery Hall 313</p>
+    <p>nikola.kuzmanovski@huskers.unl.edu</p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
