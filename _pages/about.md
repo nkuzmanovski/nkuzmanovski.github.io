@@ -24,4 +24,4 @@ Jamie Radcliffe and Alexandra Seceleanu are my advisors.
 
 You should check out some of my [papers](/papers/).
 
-<p align="center"><img src="/assets/img/5x5x5_Lex_animation.gif" width="38%" height="35%"/></p>
+<p align="center"><img src="/assets/img/5x5x5_Lex_animation.gif" width="38%" height="38%"/></p>
