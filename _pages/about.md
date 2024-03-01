@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Starting this summer, I will be a postdoc at the University of Notre Dame.
+Starting this summer, I will be a Rev. Howard J. McKenna CSC Postdoctoral Research Associate at the University of Notre Dame.
 
 Currently, I am a math graduate student at the University of Nebraska-Lincoln. 
 My research interests are in discrete isoperimetric inequalities, Hilbert functions, Macaulay theorems, lex ideals, and intersection results like the Erdős–Ko–Rado theorem.
@@ -32,3 +32,6 @@ Sergei Bezrukov and Steven Rosenberg had an enormous influence on my life during
 The animation below represents the lexicographic order in three dimensions.
 Much of my work has centered around this order.
 <p align="center"><img src="/assets/img/5x5x5_Lex_animation.gif" width="38%" height="38%"/></p>
+
+
+<p align="right"><a href="https://clustrmaps.com/site/1bygb"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=qnlr9H8Q9tcS1-t-9R2mQVmoOxkdV4vlf82gxt7s0gI&cl=ffffff" width="10%" height="10%" /></a></p>
