@@ -34,4 +34,4 @@ Much of my work has centered around this order.
 <p align="center"><img src="/assets/img/5x5x5_Lex_animation.gif" width="38%" height="38%"/></p>
 
 
-<p align="right"><a href="https://clustrmaps.com/site/1bygb"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=qnlr9H8Q9tcS1-t-9R2mQVmoOxkdV4vlf82gxt7s0gI&cl=ffffff" width="10%" height="10%" /></a></p>
+<p align="right"><a href="https://clustrmaps.com/site/1bygb" title="Visit tracker"><img src="//clustrmaps.com/map_v2.png?cl=ffffff&w=300&t=n&d=qnlr9H8Q9tcS1-t-9R2mQVmoOxkdV4vlf82gxt7s0gI&co=2d78ad&ct=ffffff" /></a></p>
