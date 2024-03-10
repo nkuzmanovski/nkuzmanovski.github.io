@@ -20,6 +20,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 Starting this summer, I will be a Rev. Howard J. McKenna CSC Postdoctoral Research Associate at the University of Notre Dame.
+My postdoc mentors are Juan Migliore and David Galvin.
 
 Currently, I am a math graduate student at the University of Nebraska-Lincoln. 
 My research interests are in discrete isoperimetric inequalities, Hilbert functions, Macaulay theorems, lex ideals, and intersection results like the Erdős–Ko–Rado theorem.
