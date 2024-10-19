@@ -2,15 +2,14 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href=https://math.unl.edu/>University of Nebraska-Lincoln, Department of Mathematics</a>
+subtitle: <a href=https://math.nd.edu/>University of Notre Dame, Mathematics Department</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: prof_pic.JPEG
+  image_circular: true # crops the image to make it circular
   address: >
-    <p>Avery Hall 313</p>
-    <p>nikola.kuzmanovski@huskers.unl.edu</p>
+    <p>138 Hayes-Healy Bldg</p>
     <p>nkuzmano@nd.edu</p>
 
 news: false  # includes a list of news items
@@ -19,13 +18,12 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Starting this summer, I will be a Rev. Howard J. McKenna CSC Postdoctoral Research Associate at the University of Notre Dame.
-My postdoc mentors are Juan Migliore and David Galvin.
+I am a Kenna Postdoctoral Research Associate at the University of Notre Dame.
+My research interests are in Hilbert functions, Macaulay theorems, lex ideals, discrete isoperimetric problems, and intersection results like the Erdős–Ko–Rado theorem.
+At Notre Dame, I am mentored by Juan Migliore and David Galvin.
 
-Currently, I am a math graduate student at the University of Nebraska-Lincoln. 
-My research interests are in discrete isoperimetric inequalities, Hilbert functions, Macaulay theorems, lex ideals, and intersection results like the Erdős–Ko–Rado theorem.
-Jamie Radcliffe and Alexandra Seceleanu are my advisors.
-
+I finished my PhD at the University of Nebraska-Lincoln in 2024.
+Jamie Radcliffe and Alexandra Seceleanu were my advisors.
 My undergraduate years were spent at the University of Wisconsin-Superior.
 I graduated in 2018 with a B.S. in mathematics and computer science.
 Sergei Bezrukov and Steven Rosenberg had an enormous influence on my life during my stay there.
