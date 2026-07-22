@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikola Kuzmanovski - Academic Webpage</title>
+    <style>
+        :root {
+            --primary-color: #0c2340; /* Notre Dame Navy */
+            --accent-color: #c99700;  /* Notre Dame Gold */
+            --text-dark: #222222;
+            --bg-light: #f8f9fa;
+            --border-color: #e0e0e0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: #ffffff;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: #ffffff;
+            padding: 2.5rem 1rem;
+            border-bottom: 4px solid var(--accent-color);
+        }
+
+        .header-container {
+            max-width: 960px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        @media (min-width: 650px) {
+            .header-container {
+                flex-direction: row;
+                align-items: flex-start;
+            }
+        }
+
+        .profile-img {
+            width: 170px;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 3px solid var(--accent-color);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .header-text {
+            flex: 1;
+        }
+
+        .header-text h1 {
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: 0.5px;
+        }
+
+        .header-text h2 {
+            font-size: 1.1rem;
+            font-weight: 400;
+            color: #d1d5db;
+            margin-bottom: 1rem;
+        }
+
+        .contact-info p {
+            margin-bottom: 0.25rem;
+            font-size: 0.95rem;
+        }
+
+        .contact-info a {
+            color: #8bb9fe;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 960px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+
+        section {
+            margin-bottom: 2.5rem;
+        }
+
+        h2.section-title {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 0.4rem;
+            margin-bottom: 1.2rem;
+            font-size: 1.5rem;
+        }
+
+        .research-container {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        @media (min-width: 700px) {
+            .research-container {
+                flex-direction: row;
+                align-items: center;
+            }
+        }
+
+        .research-text {
+            flex: 2;
+        }
+
+        .animation-img {
+            width: 220px;
+            height: auto;
+            border-radius: 6px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            align-self: center;
+        }
+
+        ol.publication-list {
+            padding-left: 1.2rem;
+        }
+
+        ol.publication-list li {
+            margin-bottom: 1rem;
+            padding-left: 0.3rem;
+        }
+
+        .pub-title {
+            font-weight: 600;
+        }
+
+        .pub-authors {
+            color: #444;
+        }
+
+        .pub-venue {
+            font-style: italic;
+        }
+
+        .pub-links a {
+            display: inline-block;
+            margin-top: 0.2rem;
+            font-size: 0.85rem;
+            background-color: var(--bg-light);
+            color: var(--primary-color);
+            padding: 0.15rem 0.5rem;
+            border-radius: 4px;
+            border: 1px solid var(--border-color);
+            text-decoration: none;
+        }
+
+        .pub-links a:hover {
+            background-color: var(--primary-color);
+            color: #ffffff;
+        }
+
+        footer {
+            padding: 1.5rem;
+            background-color: var(--bg-light);
+            border-top: 1px solid var(--border-color);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <img src="pic.JPEG" alt="Nikola Kuzmanovski" class="profile-img">
+            <div class="header-text">
+                <h1>Nikola Kuzmanovski</h1>
+                <h2>Kenna Postdoctoral Research Associate</h2>
+                <div class="contact-info">
+                    <p><strong>Department:</strong> Department of Mathematics</p>
+                    <p><strong>Institution:</strong> University of Notre Dame</p>
+                    <p><strong>Office:</strong> 138 Hayes-Healy, Notre Dame, IN 46556, USA</p>
+                    <p><strong>Email:</strong> <a href="mailto:nkuzmano@nd.edu">nkuzmano@nd.edu</a></p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2 class="section-title">About & Research Interests</h2>
+            <div class="research-container">
+                <div class="research-text">
+                    <p>
+                        My recent research focuses on the <strong>Eisenbud-Green-Harris (EGH) conjecture</strong>, 
+                        <strong>Lefschetz properties</strong>, and the structure of <strong>generic initial spaces</strong> 
+                        in the presence of regular sequences. 
+                    </p>
+                    <br>
+                    <p>
+                        Previously, I worked on <strong>discrete isoperimetric problems</strong>. 
+                        I remain very interested in discrete isoperimetric problems and continue to use them extensively 
+                        in my current research.
+                    </p>
+                </div>
+                <img src="5x5x5_Lex_animation.gif" alt="Isoperimetric / Lexicographic Animation" class="animation-img">
+            </div>
+        </section>
+
+        <section id="publications">
+            <h2 class="section-title">Publications & Preprints</h2>
+            <ol class="publication-list" reversed>
+                
+                <li>
+                    <span class="pub-authors">Kuzmanovski, N.</span> (2026). 
+                    <span class="pub-title">"On the Structure of Generic Initial Spaces"</span>. 
+                    <span class="pub-venue">In preparation</span>.
+                </li>
+
+                <li>
+                    <span class="pub-authors">Beall, P., Boyali, E., Chen, N., Chlachidze, E., Dao, T. T., Garvey, F., Johnson, M., Li, Y. O., Kuzmanovski, N., Ma, K., Mal, T., Marasinghe Mudiyanselage, R., Mayo, Q., Minsky-Primus, N., Seceleanu, A., & Veerapaneni, S.</span> (2026). 
+                    <span class="pub-title">"Constructions of Macaulay posets and Macaulay rings"</span>. 
+                    <span class="pub-venue">Electronic Journal of Combinatorics</span>, 33.2, Paper No. 2.52, 40 pp.
+                    <div class="pub-links">
+                        <a href="https://doi.org/10.37236/14245" target="_blank">DOI: 10.37236/14245</a>
+                    </div>
+                </li>
+
+                <li>
+                    <span class="pub-authors">Beall, P., Kuzmanovski, N., Li, Y. O., & Seceleanu, A.</span> (2025). 
+                    <span class="pub-title">"The Macaulay Posets package for Macaulay2"</span>. 
+                    <span class="pub-venue">Accepted to Journal of Software for Algebra and Geometry</span>.
+                    <div class="pub-links">
+                        <a href="https://arxiv.org/abs/2510.22843" target="_blank">arXiv: 2510.22843 [math.AC]</a>
+                    </div>
+                </li>
+
+                <li>
+                    <span class="pub-authors">Kuzmanovski, N.</span> (2025). 
+                    <span class="pub-title">"Towards a Complete Local-Global Principle"</span>. 
+                    <span class="pub-venue">Order</span>.
+                    <div class="pub-links">
+                        <a href="https://doi.org/10.1007/s11083-025-09711-2" target="_blank">DOI: 10.1007/s11083-025-09711-2</a>
+                    </div>
+                </li>
+
+                <li>
+                    <span class="pub-authors">Kuzmanovski, N.</span> (2025). 
+                    <span class="pub-title">"Macaulay posets and rings"</span>. 
+                    <span class="pub-venue">Journal of Algebraic Combinatorics</span>, 62.4, Paper No. 54, 42 pp.
+                    <div class="pub-links">
+                        <a href="https://doi.org/10.1007/s10801-025-01472-w" target="_blank">DOI: 10.1007/s10801-025-01472-w</a>
+                    </div>
+                </li>
+
+                <li>
+                    <span class="pub-authors">Kuzmanovski, N., & Radcliffe, J.</span> (2024). 
+                    <span class="pub-title">"Reflect-push methods part I: two dimensional techniques"</span>. 
+                    <span class="pub-venue">Electronic Journal of Combinatorics</span>, 31.1, Paper No. 1.55, 47 pp.
+                    <div class="pub-links">
+                        <a href="https://doi.org/10.37236/12043" target="_blank">DOI: 10.37236/12043</a>
+                    </div>
+                </li>
+
+                <li>
+                    <span class="pub-authors">Bezrukov, S. L., Kuzmanovski, N., & Lim, J.</span> (2023). 
+                    <span class="pub-title">"Pull-push method: a new approach to edge-isoperimetric problems"</span>. 
+                    <span class="pub-venue">Discrete Mathematics</span>, 346.12, Paper No. 113632, 21 pp.
+                    <div class="pub-links">
+                        <a href="https://doi.org/10.1016/j.disc.2023.113632" target="_blank">DOI: 10.1016/j.disc.2023.113632</a>
+                    </div>
+                </li>
+
+                <li>
+                    <span class="pub-authors">Bezrukov, S., Bulatovic, P., & Kuzmanovski, N.</span> (2018). 
+                    <span class="pub-title">"New infinite family of regular edge-isoperimetric graphs"</span>. 
+                    <span class="pub-venue">Theoretical Computer Science</span>, 721, pp. 42–53.
+                    <div class="pub-links">
+                        <a href="https://doi.org/10.1016/j.tcs.2017.12.036" target="_blank">DOI: 10.1016/j.tcs.2017.12.036</a>
+                    </div>
+                </li>
+
+            </ol>
+        </section>
+    </main>
+
+    <footer></footer>
+
+</body>
+</html>
